@@ -1,0 +1,33 @@
+{
+  "name": "nuxt-app",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": "v20.19.5",
+    "npm": "10.8.2"
+  },
+  "overrides": {
+    "@nuxtjs/mdc": "0.17.2"
+  },
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "add:content": "npm add @nuxt/content"
+  },
+  "dependencies": {
+    "@nuxt/image": "^1.11.0",
+    "@nuxt/scripts": "^0.11.13",
+    "@nuxt/ui": "^4.0.0-alpha.1",
+    "@unhead/vue": "^2.0.14",
+    "better-sqlite3": "^12.2.0",
+    "nuxt": "^4.1.0",
+    "vue": "^3.5.20",
+    "vue-router": "^4.5.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.1"
+  }
+}
