@@ -18,16 +18,16 @@
     "add:content": "npm add @nuxt/content"
   },
   "dependencies": {
-    "@nuxt/image": "^1.11.0",
-    "@nuxt/scripts": "^0.13.1",
-    "@nuxt/ui": "^4.2.1",
-    "@unhead/vue": "^2.0.19",
-    "better-sqlite3": "^12.5.0",
-    "nuxt": "^4.2.2",
-    "vue": "^3.5.25",
+    "@nuxt/image": "1.11.0",
+    "@nuxt/scripts": "^0.13.2",
+    "@nuxt/ui": "^4.4.0",
+    "@unhead/vue": "^2.1.2",
+    "better-sqlite3": "^12.6.2",
+    "nuxt": "^4.3.0",
+    "vue": "^3.5.27",
     "vue-router": "^4.6.4"
   },
   "devDependencies": {
-    "@types/node": "^24.10.4"
+    "@types/node": "^25.1.0"
   }
 }
